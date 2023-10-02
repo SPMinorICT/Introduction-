@@ -1,0 +1,9 @@
+def commacode(input_list):
+
+    for i in input_list:
+        print(i, end=', ')
+    print()
+
+fruits = ['apple', 'pear', 'banana', 'kiwi', 'mango']
+
+commacode(fruits)
